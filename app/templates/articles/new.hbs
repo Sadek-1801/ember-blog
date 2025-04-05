@@ -1,0 +1,32 @@
+<Articles::Form>
+  <ValidatedForm
+    @model={{@model}}
+    @on-submit={{this.submit}}
+    as |f|
+  >
+
+    <f.input @label="Title" @name="title" @required={{true}} />
+
+    <f.input @label="Author" @name="author" @required={{true}} />
+
+    <f.input
+      @type='select'
+      @label='Category'
+      @name='category'
+      @value='Technology'
+      @options={{array 'Technology' 'Environment' 'Sports'}}
+      @prompt='Please choose...'
+      @promptIsSelectable={{true}}
+  />
+
+    <f.input
+            @type='textarea'
+      @label="Description"
+      @name="description"
+      @required={{true}}
+    />
+
+    <f.submit @label="Save" class="button"/>
+
+  </ValidatedForm>
+</Articles::Form>

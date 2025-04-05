@@ -1,0 +1,12 @@
+<section class="article_container">
+  <div class="flex-between">
+    <h1>MY BLOGS</h1>
+    <LinkTo class="button" @route="articles.new">Create a new Article</LinkTo>
+  </div>
+  <hr>
+  <div class="acticle_card_container">
+    {{#each @articles as |article|}}
+          <Article @post={{article}}/>
+    {{/each}}
+  </div>
+</section>

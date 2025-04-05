@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "type": "article",
+      "id": "ai-in-healthcare",
+      "attributes": {
+        "title": "The Impact of AI in Healthcare",
+        "author": "Dr. Emily Carter",
+        "category": "Technology",
+        "published_date": "2025-03-13",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6545482a7292ee41f34cc661/Doctor-using-a-computer-at-the-hospital/960x0.jpg?format=jpg&width=1440",
+        "description": "Artificial Intelligence is revolutionizing the healthcare industry by improving diagnostics, patient care, and research efficiency."
+      }
+    },
+    {
+      "type": "article",
+      "id": "sustainable-living",
+      "attributes": {
+        "title": "Sustainable Living: A Guide to a Greener Future",
+        "author": "John Peterson",
+        "category": "Environment",
+        "published_date": "2025-02-28",
+        "image": "https://ugreen.io/wp-content/uploads/2024/04/Sustainability-Sustainable_Living_02-1024x574.png",
+        "description": "Explore practical ways to adopt a sustainable lifestyle, reduce your carbon footprint, and contribute to a healthier planet."
+      }
+    },
+    {
+      "type": "article",
+      "id": "future-of-web",
+      "attributes": {
+        "title": "The Future of Web Development in 2025",
+        "author": "Sophia Lee",
+        "category": "Technology",
+        "published_date": "2025-01-15",
+        "image": "https://wpengine.com/wp-content/uploads/2022/07/WP-Trends_1200x627-1024x535.jpeg",
+        "description": "Web development is evolving with AI-driven tools, improved accessibility, and new frameworks shaping the future of the internet."
+      }
+    }
+  ]
+}
