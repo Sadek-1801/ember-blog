@@ -13,4 +13,6 @@ Router.map(function () {
     this.route('new');
     this.route('article', { path: ':article_id' });
   });
+  this.route('admin');
+  this.route('login');
 });
